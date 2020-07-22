@@ -16,6 +16,6 @@ class MainActivity : AppCompatActivity() {
         //backStackの設定 main画面からFragmentから画面をレイアウトする
         fragmentTransaction.addToBackStack(null)
         //fragmentTransactionにパラメータとして設定する
-        fragmentTransaction.add(R.id.container, SubClassFragmet()).commit()
+        fragmentTransaction.add(R.id.container, NavigationItemsFragmet()).commit()
     }
 }
