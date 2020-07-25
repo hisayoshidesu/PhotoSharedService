@@ -1,6 +1,6 @@
 # PhotoSharedService
 
-##　画像共有アプリ
+画像共有アプリ
 
 
 ## 概要
