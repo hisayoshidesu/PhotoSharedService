@@ -1,20 +1,27 @@
 package h.j.photosharedservice
 
 import android.content.Context
+import android.content.Intent
 import android.os.Bundle
-import android.os.PersistableBundle
-import android.util.AttributeSet
-import android.view.LayoutInflater
-import android.view.View
-import android.view.ViewGroup
-import androidx.appcompat.app.AppCompatActivity
+import android.view.*
 import androidx.fragment.app.Fragment
 
+
+/*fragmentを持たせて遷移する*/
 class NavigationItemsFragmet: Fragment() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-    }
+
+//        navigation.setOnNavigationItemSelectedListener(BottomNavigationView.OnNavigationItemSelectedListener {
+//                item ->
+//            when(item.itemId){
+//
+//
+//            }
+//
+//        })
+
 
     override fun onCreateView(
         inflater: LayoutInflater,
@@ -24,5 +31,32 @@ class NavigationItemsFragmet: Fragment() {
         return inflater.inflate(R.layout.main, container, false)
     }
 
+    override fun onAttach(context: Context) {
+        super.onAttach(context)
+    }
+
+
+    override fun onActivityResult(requestCode: Int, resultCode: Int, data: Intent?) {
+        super.onActivityResult(requestCode, resultCode, data)
+    }
+
+    //長押しで変化させる
+    override fun onCreateContextMenu(menu: ContextMenu, v: View, menuInfo: ContextMenu.ContextMenuInfo?) {
+        super.onCreateContextMenu(menu, v, menuInfo)
+    }
+
+    //コンテキストメニューの項目が選択された時の処理
+    override fun onContextItemSelected(item: MenuItem): Boolean {
+        return super.onContextItemSelected(item)
+    }
+
+    //コンテキストメニューを作成
+    /**
+     * コンテキストメニューを表示するように登録すると、
+     * そのViewを長押しした時にActivityクラスのonCreateContextMenuメソッドが呼ばれる
+     */
+    override fun onCreateOptionsMenu(menu: Menu, inflater: MenuInflater) {
+        super.onCreateOptionsMenu(menu, inflater)
+    }
 }
 
