@@ -25,6 +25,7 @@ class NavigationItemsFragmet: Fragment() {
 //
 //        })
 
+    }
 
     override fun onCreateView(
         inflater: LayoutInflater,
