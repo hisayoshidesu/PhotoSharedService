@@ -7,7 +7,7 @@ android {
 
 
     defaultConfig {
-        applicationId "h.j.photosharedservice"
+        applicationId "h.j.photosharedservice_0816"
         minSdkVersion 26
         targetSdkVersion 29
         versionCode 1
