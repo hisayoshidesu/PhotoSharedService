@@ -5,6 +5,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
+import h.j.photosharedservice.R
 
 class LikeFragment : Fragment() {
 
@@ -17,6 +18,7 @@ class LikeFragment : Fragment() {
         container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        return super.onCreateView(inflater, container, savedInstanceState)
+//        return super.onCreateView(inflater, container, savedInstanceState)
+        return inflater.inflate(R.layout.like, container, false)
     }
 }
