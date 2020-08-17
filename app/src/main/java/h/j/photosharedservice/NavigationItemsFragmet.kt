@@ -7,7 +7,7 @@ import android.view.*
 import androidx.fragment.app.Fragment
 
 /*
-* https://qiita.com/orimomo/items/313ce4e273fa741dddf2を参考にしてbottomNvitationを実装すること
+* https://qiita.com/orimomo/items/313ce4e273fa741dddf2を参考にしてbottomNavigtationを実装すること
 * */
 
 /*fragmentを持たせて遷移する*/
@@ -16,14 +16,6 @@ class NavigationItemsFragmet: Fragment() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
-//        navigation.setOnNavigationItemSelectedListener(BottomNavigationView.OnNavigationItemSelectedListener {
-//                item ->
-//            when(item.itemId){
-//
-//
-//            }
-//
-//        })
 
     }
 
