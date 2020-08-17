@@ -5,6 +5,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
+import h.j.photosharedservice.R
 
 class OtherFragment : Fragment() {
 
@@ -18,7 +19,8 @@ class OtherFragment : Fragment() {
         container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        return super.onCreateView(inflater, container, savedInstanceState)
+//        return super.onCreateView(inflater, container, savedInstanceState)
+        return inflater.inflate(R.layout.other, container, false)
     }
 
 
