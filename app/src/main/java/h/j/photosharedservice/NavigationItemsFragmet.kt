@@ -7,7 +7,7 @@ import android.view.*
 import androidx.fragment.app.Fragment
 
 /*
-* https://qiita.com/orimomo/items/313ce4e273fa741dddf2を参考にしてbottomNavigtationを実装すること
+* https://qiita.com/orimomo/items/313ce4e273fa741dddf2を参考にしてbottomNavigationを実装すること
 * */
 
 /*fragmentを持たせて遷移する*/
