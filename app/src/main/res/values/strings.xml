@@ -1,3 +1,6 @@
 <resources>
     <string name="app_name">PhotoSharedService_0816</string>
+    <string name="nav_header_desc">Navigation header</string>>
+    <string name="nav_header_subtitle">android.studio@android.com(登録したアドレス)</string>
+    <string name="nav_header_title">Android Studio(アカウント登録者)</string>
 </resources>
