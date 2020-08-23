@@ -3,4 +3,8 @@
     <string name="nav_header_desc">Navigation header</string>>
     <string name="nav_header_subtitle">android.studio@android.com(登録したアドレス)</string>
     <string name="nav_header_title">Android Studio(アカウント登録者)</string>
+
+    <string name="menu_account">アカウント編集</string>
+    <string name="menu_license">ライセンス</string>
+    <string name="menu_notification">通知設定</string>
 </resources>
