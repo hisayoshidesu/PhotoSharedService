@@ -1,5 +1,7 @@
 package h.j.photosharedservice.menu
 
-class MenuModelView {
+import androidx.lifecycle.ViewModel
+
+class MenuModelView : ViewModel(){
 
 }
