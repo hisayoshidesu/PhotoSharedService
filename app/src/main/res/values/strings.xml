@@ -7,4 +7,6 @@
     <string name="menu_account">アカウント編集</string>
     <string name="menu_license">ライセンス</string>
     <string name="menu_notification">通知設定</string>
+
+    <string name="menu_camera">カメラ</string>
 </resources>
