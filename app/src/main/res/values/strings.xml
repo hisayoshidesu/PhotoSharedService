@@ -9,4 +9,8 @@
     <string name="menu_notification">通知設定</string>
 
     <string name="menu_camera">カメラ</string>
+    <string name="menu_camera_shot">撮影</string>
+    <string name="menu_camera_save">保存</string>
+    <string name="menu_camera_add">追加します</string>
+
 </resources>
