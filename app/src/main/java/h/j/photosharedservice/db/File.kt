@@ -10,9 +10,13 @@ import androidx.appcompat.app.AppCompatActivity
 
 class File : AppCompatActivity() {
 
-    
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+
+//        内部ストレージのパス取得
+        var internal = applicationContext.filesDir
+        var cache = applicationContext.filesDir
+
     }
 
     override fun onStart() {
