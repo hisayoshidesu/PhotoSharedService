@@ -1,13 +1,17 @@
 package h.j.photosharedservice
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
+import android.widget.ImageView
 import com.google.android.material.bottomnavigation.BottomNavigationView
+import h.j.photosharedservice.menu.home.HomeActivity
 import h.j.photosharedservice.menu.home.HomeFragment
 import h.j.photosharedservice.menu.like.LikeFragment
 import h.j.photosharedservice.menu.other.OtherFragment
 import h.j.photosharedservice.menu.schedule.ScheduleFragment
+import kotlinx.android.synthetic.main.home.*
 import kotlinx.android.synthetic.main.main.*
 
 class MainActivity : AppCompatActivity() {
@@ -40,11 +44,10 @@ class MainActivity : AppCompatActivity() {
     val mOnNavigationItemSelectedListener = BottomNavigationView.OnNavigationItemSelectedListener { item ->
         when (item.itemId) {
             R.id.nav_home -> {
-                val fragmentManager = supportFragmentManager
-                var fragmentTransaction = fragmentManager.beginTransaction()
-                fragmentTransaction.addToBackStack(null)
-                fragmentManager.popBackStack()
-                fragmentTransaction.add(R.id.container_nav_home, HomeFragment()).commit()
+
+                val intent = Intent(applicationContext, HomeActivity::class.java)
+                startActivity(intent)
+
 
                 return@OnNavigationItemSelectedListener true
             }
@@ -79,5 +82,11 @@ class MainActivity : AppCompatActivity() {
             }
         }
         false
+    }
+
+    fun picture() {
+//        val imageView2 = findViewById<ImageView>(R.id.imageView2)
+        return imageView2.setImageResource(R.drawable.sample_image)
+//        return imageView2
     }
 }
