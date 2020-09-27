@@ -85,10 +85,4 @@ class MainActivity : AppCompatActivity() {
         }
         false
     }
-
-    fun picture() {
-//        val imageView2 = findViewById<ImageView>(R.id.imageView2)
-        return imageView2.setImageResource(R.drawable.sample_image)
-//        return imageView2
-    }
 }
