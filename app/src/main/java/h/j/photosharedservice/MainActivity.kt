@@ -14,6 +14,8 @@ import h.j.photosharedservice.menu.schedule.ScheduleFragment
 import kotlinx.android.synthetic.main.home.*
 import kotlinx.android.synthetic.main.main.*
 
+//?はnullpointerを防ぐ役割があるそう
+
 class MainActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
