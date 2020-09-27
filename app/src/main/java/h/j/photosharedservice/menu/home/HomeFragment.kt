@@ -21,6 +21,13 @@ class HomeFragment : Fragment() {
     }
 
 
+    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
+        super.onViewCreated(view, savedInstanceState)
+//        val imageView2 = findViewById<ImageView>(R.id.imageView2)
+//        imageView2.setImageResource(R.drawable.sample_image)
+//        HomeActivity()?.picture()
+
+    }
 
 //    override fun onPause() {
 //        super.onPause()
