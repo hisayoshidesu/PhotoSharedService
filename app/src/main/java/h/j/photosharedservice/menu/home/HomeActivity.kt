@@ -23,11 +23,12 @@ class HomeActivity : AppCompatActivity() {
 
     }
 
-//    fun picture() {
-//        val imageView2 = findViewById<ImageView>(R.id.imageView2)
-//        imageView2.setImageResource(R.drawable.sample_image)
-////        return imageView2
-//    }
+    fun picture() {
+        val imageView2 = findViewById<ImageView>(R.id.imageView2)
+        imageView2.setImageResource(R.drawable.sample_image)
+        return
+//        return imageView2
+    }
 
 
 }
