@@ -8,6 +8,8 @@ import android.widget.ImageView
 import androidx.fragment.app.Fragment
 import h.j.photosharedservice.R
 
+
+
 class HomeFragment : Fragment() {
 
     override fun onCreateView(
@@ -25,5 +27,10 @@ class HomeFragment : Fragment() {
         super.onViewCreated(view, savedInstanceState)
         val imageView2 = view.findViewById<ImageView>(R.id.imageView2)
         imageView2.setImageResource(R.drawable.sample_image)
+    }
+
+    //画像の保存
+    override fun onSaveInstanceState(outState: Bundle) {
+        super.onSaveInstanceState(outState)
     }
 }
