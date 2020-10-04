@@ -12,6 +12,11 @@ import h.j.photosharedservice.R
 
 class HomeFragment : Fragment() {
 
+
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+    }
+
     override fun onCreateView(
         inflater: LayoutInflater,
         container: ViewGroup?,
@@ -30,6 +35,7 @@ class HomeFragment : Fragment() {
     }
 
     //画像の保存
+    //UIの状態を保存と復元する為のインタフェース
     override fun onSaveInstanceState(outState: Bundle) {
         super.onSaveInstanceState(outState)
     }
