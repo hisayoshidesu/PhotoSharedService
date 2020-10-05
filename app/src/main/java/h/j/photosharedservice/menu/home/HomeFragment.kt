@@ -36,6 +36,7 @@ class HomeFragment : Fragment() {
 
     //画像の保存
     //UIの状態を保存と復元する為のインタフェース
+//    onSaveInstanceStateは、onPauseの直後に呼ばれます
     override fun onSaveInstanceState(outState: Bundle) {
         super.onSaveInstanceState(outState)
     }
