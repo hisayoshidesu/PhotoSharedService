@@ -23,11 +23,11 @@ class MainActivity : AppCompatActivity() {
         Log.d("Fragment", "onViewCreated")
         setContentView(R.layout.activity_main)
         
-        val fragmentManager = supportFragmentManager
-        var fragmentTransaction = fragmentManager.beginTransaction()
-        fragmentTransaction.addToBackStack(null)
-        fragmentManager.popBackStack()
-        fragmentTransaction.add(R.id.container_nav_home, HomeFragment()).commit()
+//        val fragmentManager = supportFragmentManager
+//        var fragmentTransaction = fragmentManager.beginTransaction()
+//        fragmentTransaction.addToBackStack(null)
+//        fragmentManager.popBackStack()
+//        fragmentTransaction.add(R.id.container_nav_home, HomeFragment()).commit()
 
 
 //        val navigationactivity =  NavigationActivity()
