@@ -41,6 +41,11 @@ class MainActivity : AppCompatActivity() {
 //        fragmentTransaction.add(R.id.container, NavigationItemsFragmet()).commit()
         navigation.setOnNavigationItemSelectedListener(mOnNavigationItemSelectedListener)
     }
+    /**
+     *
+     * replaceで切り替えると、表示ごとにFragmentの状態が初期化されてしまうため、
+     * 各アイテムの状態を保つことができません。replaceは内部的にremove、addを行っているためです。
+    */
 
 
     val mOnNavigationItemSelectedListener = BottomNavigationView.OnNavigationItemSelectedListener { item ->
