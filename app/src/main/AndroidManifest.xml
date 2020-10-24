@@ -25,6 +25,7 @@
             </intent-filter>
         </activity>
         <activity android:name=".menu.home.HomeActivity"></activity>
+        <activity android:name=".menu.schedule.ScheduleActivity"></activity>
     </application>
 
 </manifest>
