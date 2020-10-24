@@ -52,7 +52,7 @@ class NavigationActivity : AppCompatActivity() {
                 var fragmentTransaction = fragmentManager.beginTransaction()
                 fragmentTransaction.addToBackStack(null)
                 fragmentManager.popBackStack()
-                fragmentTransaction.replace(R.id.container_favorite, ScheduleFragment()).commit()
+                fragmentTransaction.add(R.id.container_favorite, ScheduleFragment()).commit()
 
                 return@OnNavigationItemSelectedListener true
             }
@@ -62,7 +62,7 @@ class NavigationActivity : AppCompatActivity() {
                 var fragmentTransaction = fragmentManager.beginTransaction()
                 fragmentTransaction.addToBackStack(null)
                 fragmentManager.popBackStack()
-                fragmentTransaction.replace(R.id.container_other, OtherFragment()).commit()
+                fragmentTransaction.add(R.id.container_other, OtherFragment()).commit()
 
                 return@OnNavigationItemSelectedListener true
             }
