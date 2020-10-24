@@ -1,6 +1,7 @@
 package h.j.photosharedservice.menu.like
 
 import android.os.Bundle
+import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -19,6 +20,7 @@ class LikeFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
 //        return super.onCreateView(inflater, container, savedInstanceState)
+        Log.d("TAG","LikeFragment_______")
         return inflater.inflate(R.layout.like, container, false)
     }
 }
