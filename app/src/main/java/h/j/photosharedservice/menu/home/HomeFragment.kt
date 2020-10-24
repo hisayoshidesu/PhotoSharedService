@@ -15,6 +15,7 @@ class HomeFragment : Fragment() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+        var hogehoge =1
     }
 
     override fun onCreateView(
